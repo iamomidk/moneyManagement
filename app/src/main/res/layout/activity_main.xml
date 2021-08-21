@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		xmlns:tools="http://schemas.android.com/tools"
+		android:layout_width="match_parent"
+		android:id="@+id/root_layout"
+		android:fillViewport="true"
+		android:layout_height="match_parent">
+
+	<androidx.appcompat.widget.LinearLayoutCompat
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:gravity="center"
+			android:layout_height="match_parent"
+			android:paddingHorizontal="24dp"
+			tools:context=".MainActivity">
+
+		<com.google.android.material.textfield.TextInputLayout
+				android:layout_width="match_parent"
+				style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+				android:layout_height="wrap_content">
+
+			<androidx.appcompat.widget.AppCompatEditText
+					android:id="@+id/edt_a"
+					android:hint="Balance"
+					android:inputType="numberDecimal"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+				android:layout_width="match_parent"
+				style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+				android:layout_height="wrap_content">
+
+			<androidx.appcompat.widget.AppCompatEditText
+					android:inputType="numberDecimal"
+					android:hint="Risk %"
+					android:id="@+id/edt_b"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+				android:layout_width="match_parent"
+				style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+				android:layout_height="wrap_content">
+
+			<androidx.appcompat.widget.AppCompatEditText
+					android:inputType="numberDecimal"
+					android:id="@+id/edt_d"
+					android:layout_width="match_parent"
+					android:hint="Protective stop (pip)"
+					android:layout_height="wrap_content" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<com.google.android.material.textfield.TextInputLayout
+				android:layout_width="match_parent"
+				style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+				android:layout_height="wrap_content">
+
+			<androidx.appcompat.widget.AppCompatEditText
+					android:id="@+id/edt_g"
+					android:inputType="numberDecimal"
+					android:layout_width="match_parent"
+					android:hint="value of pip per 1 lot"
+					android:layout_height="wrap_content" />
+
+		</com.google.android.material.textfield.TextInputLayout>
+
+		<androidx.appcompat.widget.AppCompatButton
+				android:id="@+id/btn_submit"
+				android:text="sumbit"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+				android:id="@+id/txt_c"
+				android:padding="8dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+				android:id="@+id/txt_e"
+				android:padding="8dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content" />
+
+		<androidx.appcompat.widget.AppCompatTextView
+				android:id="@+id/txt_f"
+				android:layout_width="match_parent"
+				android:padding="8dp"
+				android:layout_height="wrap_content" />
+
+
+	</androidx.appcompat.widget.LinearLayoutCompat>
+</androidx.core.widget.NestedScrollView>
