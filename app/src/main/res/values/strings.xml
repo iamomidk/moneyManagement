@@ -1,3 +1,8 @@
 <resources>
 	<string name="app_name">Money Management</string>
+	<string name="balance">Balance</string>
+	<string name="risk">Risk %</string>
+	<string name="protective_stop_pip">Protective stop (pip)</string>
+	<string name="value_of_pip_per_1_lot">value of pip per 1 lot</string>
+	<string name="submit">submit</string>
 </resources>

@@ -22,7 +22,7 @@
 
 			<androidx.appcompat.widget.AppCompatEditText
 					android:id="@+id/edt_a"
-					android:hint="Balance"
+					android:hint="@string/balance"
 					android:inputType="numberDecimal"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content" />
@@ -36,7 +36,7 @@
 
 			<androidx.appcompat.widget.AppCompatEditText
 					android:inputType="numberDecimal"
-					android:hint="Risk %"
+					android:hint="@string/risk"
 					android:id="@+id/edt_b"
 					android:layout_width="match_parent"
 					android:layout_height="wrap_content" />
@@ -52,7 +52,7 @@
 					android:inputType="numberDecimal"
 					android:id="@+id/edt_d"
 					android:layout_width="match_parent"
-					android:hint="Protective stop (pip)"
+					android:hint="@string/protective_stop_pip"
 					android:layout_height="wrap_content" />
 
 		</com.google.android.material.textfield.TextInputLayout>
@@ -66,14 +66,14 @@
 					android:id="@+id/edt_g"
 					android:inputType="numberDecimal"
 					android:layout_width="match_parent"
-					android:hint="value of pip per 1 lot"
+					android:hint="@string/value_of_pip_per_1_lot"
 					android:layout_height="wrap_content" />
 
 		</com.google.android.material.textfield.TextInputLayout>
 
 		<androidx.appcompat.widget.AppCompatButton
 				android:id="@+id/btn_submit"
-				android:text="sumbit"
+				android:text="@string/submit"
 				android:layout_width="match_parent"
 				android:layout_height="wrap_content" />
 
@@ -95,6 +95,6 @@
 				android:padding="8dp"
 				android:layout_height="wrap_content" />
 
-
 	</androidx.appcompat.widget.LinearLayoutCompat>
+
 </androidx.core.widget.NestedScrollView>
